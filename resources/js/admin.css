@@ -1,0 +1,120 @@
+.icon-size{
+    font-size: 20px;
+}
+/* Applied to the toast body when using regular strings as content */
+.Vue-Toastification__toast-body {
+    font-size: 14px;
+}
+.Vue-Toastification__toast {
+    display: inline-flex;
+    position: relative;
+    max-height: 800px;
+    min-height: 40px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 13px 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    font-family:
+      "Lato",
+      Helvetica,
+      "Roboto",
+      Arial,
+      sans-serif;
+    max-width: 600px;
+    min-width: 250px;
+    pointer-events: auto;
+    overflow: hidden;
+    transform: translateZ(0);
+    direction: ltr;
+  }
+.card-header{
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2) !important;
+  }
+  
+  .shadow {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+  
+  .shadow-none {
+    box-shadow: none !important;
+  }
+  .btn-danger,.btn-danger:hover,
+  .btn-primary,.btn-primary:hover{
+    color: #fff;
+  }
+
+  .w-150{
+    width: 150px;
+  }
+
+  .w-200{
+    width: 200px;
+  }
+
+  .w-500{
+    width: 500px;
+  }
+
+
+  .div-disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.btn-group-xs>.btn.custom, .btn-xs.custom {
+  font-size: 12px;
+  padding: 5px 10px}
+.nav-tabs-lists .nav-item .nav-link{
+  color: black;
+}
+
+.nav-tabs-lists .nav-item .nav-link.active{
+  color: rgb(20, 83, 209);
+}
+
+
+.app-nav .submenu-toggle[aria-expanded=true] .submenu-arrow svg {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.btn-nav-accordion.active .submenu-arrow svg {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.sidepanel-inner{
+  background: #174276 !important;
+}
+.logo-text{
+  color: #fff !important;
+}
+
+.app-nav .nav-item {
+  display: block;
+  color: #fff;
+  background: #174276;
+}
+.app-nav .nav-item .nav-link{
+  color: #FFF;
+}
+
+.app-nav .nav-item .nav-link.active{
+  color: rgb(6, 6, 6);
+}
+.profile-img-rounded{
+  border-radius: 50%;
+}

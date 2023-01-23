@@ -1,0 +1,319 @@
+.app-sidepanel{
+    border-right: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+label{
+    color: #000;
+}
+/*form elements
+remove form control height
+*/
+.form-control {
+    padding: 0.6rem 1rem;
+    font-size: 0.875rem;
+    border: 1px solid #e2e5ec;
+    background-color: #fff;
+}
+.dataTables_length select{
+    padding: 10px !important;
+}
+.form-control:focus {
+    border-color: var(#0d6efd);
+    box-shadow: none;
+    background-color: #f7f8fa;
+}
+.form-control:-ms-input-placeholder {
+    color: #898b92;
+}
+.form-control::-moz-placeholder {
+    color: #898b92;
+}
+.form-control::placeholder {
+    color: #898b92;
+}
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #f7f8fa;
+    opacity: 1;
+    border-color: #e2e5ec;
+}
+
+.form-control-sm {
+    height: calc(2.3rem + 2px);
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.form-control-lg {
+    height: calc(3rem + 2px);
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.resize-off {
+    resize: none;
+}
+
+.custom-file-input:focus ~ .custom-file-label {
+    border-color: #e2e5ec;
+}
+
+.custom-file {
+    height: calc(2.5125rem + 2px);
+    overflow: hidden;
+}
+
+.custom-file-input {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    position: absolute;
+}
+
+.custom-file-name {
+    white-space: nowrap;
+}
+
+.custom-file-label,
+.custom-file-label::after {
+    padding: 0.6rem 1rem;
+    font-size: 0.875rem;
+    height: calc(2.5125rem + 2px);
+    border: 1px solid #e2e5ec;
+    color: #898b92;
+}
+
+.custom-file-sm {
+    height: calc(2.3rem + 2px);
+}
+
+.custom-file-sm .custom-file-label,
+.custom-file-sm .custom-file-label::after {
+    height: calc(2.3rem + 2px);
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+}
+
+.custom-file-lg {
+    height: calc(3rem + 2px);
+}
+.custom-file-lg .custom-file-label,
+.custom-file-lg .custom-file-label::after {
+    height: calc(3rem + 2px);
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.my-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* Create a custom checkbox */
+    /* When the checkbox is checked, add a blue background */
+    /* Show the checkmark when checked */
+}
+.my-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.my-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #eee;
+}
+.my-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 3px;
+    width: 4px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.my-checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.my-checkbox input:checked ~ .checkmark {
+    background-color: #2196f3;
+}
+.my-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.select2 {
+    width: 100%;
+}
+
+.select2-selection {
+    box-shadow: 0;
+    background-color: #fff;
+    border: 0;
+    padding: 5px;
+    border-radius: 0;
+    color: #555555;
+    font-size: 14px;
+    outline: 0;
+    min-height: 40px;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 48px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #0e6db5;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.onoffswitch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #eeeeee;
+    color: #999999;
+    text-align: right;
+}
+
+.onoffswitch-switch {
+    display: block;
+    width: 14px;
+    margin: 4px;
+    background: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 27px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+.status-pending {
+    background-color: #212529;
+    color: #fff;
+}
+
+.status-rejected {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.status-processing {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.status-successed {
+    background-color: #198754;
+    color: #fff;
+}
+
+.category-checkbox {
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    width: 100%;
+}
+.category-checkbox ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 15px;
+}
+.category-checkbox ul li {
+    margin-top: 5px;
+}
+
+.detail-page-tabs {
+    padding-left: 20px;
+    background-color: #dee2e6;
+}
+.detail-page-tabs button {
+    width: 20%;
+    color: #212529;
+}
+
+.profile-tab {
+    padding-left: 20px;
+    background-color: #dee2e6;
+}
+.profile-tab button {
+    color: #212529;
+}
+
+.choose-image img{
+    height: 170px;
+    border-radius: 5px;
+}
